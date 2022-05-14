@@ -6,3 +6,5 @@ RUN apt -y upgrade
 RUN pip install -U pip
 
 WORKDIR /home/work
+
+COPY . .
