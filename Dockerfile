@@ -1,4 +1,4 @@
-FROM pachyderm/opencv:1.0
+FROM jjanzic/docker-python3-opencv:opencv-4.0.0
 
 RUN apt update
 RUN apt -y upgrade
